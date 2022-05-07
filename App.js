@@ -5,6 +5,7 @@ import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 import { Blurhash } from 'react-native-blurhash';
 import * as TaskManager from "expo-task-manager"
 import * as Location from "expo-location"
+import HomeScreen from './screens/HomeScreen';
 
 
 export default function App() {
