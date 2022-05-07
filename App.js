@@ -1,5 +1,5 @@
 
-import  React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 import { Blurhash } from 'react-native-blurhash';
@@ -22,10 +22,9 @@ export default function App() {
     requestPermissions()
   }, [])
   return (
-    <Blurhash
-      blurhash="LGFFaXYk^6#M@-5c,1J5@[or[Q6."
-      style={{flex: 1}}
-    />
+    <View style={styles.container}>
+      {!location ? (<ActivityIndicator size="large" color="#00ff00" />) : (<HomeScreen />)}
+    </View>
   );
 }
 
