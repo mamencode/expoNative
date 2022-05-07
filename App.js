@@ -1,7 +1,7 @@
 
 import  React, {useEffect, useState} from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 import { Blurhash } from 'react-native-blurhash';
 import * as TaskManager from "expo-task-manager"
 import * as Location from "expo-location"
