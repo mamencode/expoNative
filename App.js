@@ -39,3 +39,5 @@ const styles = StyleSheet.create({
 
 
 //@react-native-mapbox-gl/maps
+
+//expo install @rnmapbox/maps
